@@ -1,43 +1,163 @@
-# Svelte + Vite
+📘 Bhagavad Gītā — Svelte Webpage
 
-This template should help get you started developing with Svelte in Vite.
+A fully responsive, pixel-perfect recreation of the Bhagavad Gītā page from Sanskrit.ie, built using Svelte + Vite, featuring:
+✔ Accurate UI replication
+✔ Clean responsive layout
+✔ Custom navigation bar
+✔ Scroll-to-top button
+✔ Chapter grid (1–18)
+✔ Footer with social icons
+✔ Ready for API integration
+✔ Deployed on Vercel
 
-## Recommended IDE Setup
+🌐 Live Demo
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Vercel Deployment:
+👉 https://your-project-url.vercel.app/
 
-## Need an official Svelte framework?
+📂 Project Structure
+gita-svelte/
+│
+├── public/
+│   ├── images/         # All static assets (hero image, book, icons, footer bg)
+│   └── favicon.svg
+│
+├── src/
+│   ├── components/     # Navbar, footer, chapters, hero section
+│   ├── routes/         # (If using SvelteKit)
+│   ├── App.svelte
+│   └── main.js
+│
+├── package.json
+├── vite.config.js
+└── README.md
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
-## Technical considerations
+🚀 Features
+1. Fully Recreated Bhagavad Gītā Hero Section
 
-**Why use this over SvelteKit?**
+Background chariot image
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+Top white overlays (exact like Sanskrit.ie)
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+Title typography (edensor, Noto Sans Devanagari)
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+Overlapping open-book image
 
-**Why include `.vscode/extensions.json`?**
+Mobile-responsive scaling
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+2. Custom Navigation Bar
 
-**Why enable `checkJs` in the JS template?**
+Logo on the left
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+Search icon next
 
-**Why is HMR not preserving my local component state?**
+Navigation links on the right
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
+Down-arrow icon added
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+Burger menu for mobile
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+Mobile-side panel navigation
+
+3. Chapter Grid (1–18)
+
+Diamond-shaped chapter icons
+
+Background book image perfectly fitted
+
+Number overlay with dark stripe
+
+Fully responsive grid (7→6→4→3→2 columns)
+
+Accessible link labels
+
+4. Footer
+
+Footer background image
+
+Social icons
+
+Centered logo
+
+“WELLBEING-SVASTI” typography
+
+Copyright row
+
+Responsive arrangement
+
+5. Scroll to Top Button
+
+Fixed bottom-right button
+
+Smooth scroll
+
+White-bordered button
+
+Arrow animation on hover
+
+🛠️ Tech Stack
+Frontend
+
+Svelte — component framework
+
+Vite — build tool
+
+HTML5 / CSS3
+
+Responsive design (media queries)
+
+Tools & Deployment
+
+Git / GitHub
+
+Vercel — hosting + CI/CD
+
+🧩 Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+cd YOUR-REPO
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open your browser:
+
+http://localhost:5173
+
+📦 Building for Production
+
+Generate the optimized production build:
+
+npm run build
+
+
+Preview the build locally:
+
+npm run preview
+
+
+Build output goes to:
+
+dist/
+
+
+📜 License
+
+This project is created for educational + assignment purposes.
+All rights to original Sanskrit.ie design belong to their creators.
+
+👨‍💻 Developer
+
+Abhishek Sah
+Frontend Developer (React / Svelte)
