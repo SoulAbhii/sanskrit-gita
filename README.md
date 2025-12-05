@@ -13,7 +13,7 @@ A fully responsive, pixel-perfect recreation of the Bhagavad Gītā page from Sa
 🌐 Live Demo
 
 Vercel Deployment:
-👉 https://your-project-url.vercel.app/
+👉 (https://gita-sanskrit.netlify.app/)
 
 📂 Project Structure
 gita-svelte/
@@ -117,7 +117,7 @@ Vercel — hosting + CI/CD
 
 Clone the repository:
 
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
+git clone https://github.com/SoulAbhii/sanskrit-gita.git
 cd YOUR-REPO
 
 
